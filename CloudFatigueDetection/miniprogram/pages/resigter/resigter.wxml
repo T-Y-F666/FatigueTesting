@@ -1,0 +1,12 @@
+<view>账号</view>
+<input type="text" placeholder="请输入账号" bindinput="getAccount"></input>
+<view>密码</view>
+<input type="text" placeholder="请输入密码" bindinput="getPassword"></input>
+<view>确认密码</view>
+<input type="text" placeholder="请输入密码" bindinput="getPasswordAgain"></input>
+<view class="btn">
+
+</view>
+<view class="tosign">
+<view bindtap="toSign" >注册</view>
+</view>

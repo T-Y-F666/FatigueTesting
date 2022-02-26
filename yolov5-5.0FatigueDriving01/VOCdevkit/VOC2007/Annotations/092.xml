@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>092.webp</filename>
+	<path>C:\Users\86137\Desktop\VOCdevkit\VOC2007\JPEGImages\092.webp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>371</width>
+		<height>334</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>normal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>89</xmin>
+			<ymin>22</ymin>
+			<xmax>240</xmax>
+			<ymax>221</ymax>
+		</bndbox>
+	</object>
+</annotation>

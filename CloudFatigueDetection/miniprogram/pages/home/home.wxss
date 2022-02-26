@@ -1,0 +1,55 @@
+  .swiper-item{
+    width: 100%;
+    display: block;
+    height: 150px;
+  }
+  .swiper_box {
+    
+      width: 100%;
+  }
+  swiper-item image {
+      height: 100%;
+      width: 100%;
+      display: inline-block;
+      overflow: hidden;
+  }.circle{
+   
+      width: 70px;
+      height: 70px;
+      border: 0 solid #ffffff;
+      border-radius: 250px; 
+     font-size:0;
+  }
+  .image{
+    top: 20rpx;
+    margin-left: -22rpx;
+    
+     display: flex;
+     width: 135rpx;
+      height: 135rpx;
+  }
+   
+   
+  .btn3 {
+   width: 30%;
+    margin-top: 20rpx;
+    background-color: rgba(57, 163, 233, 0.767);
+    color: white;
+    border-radius: 40rpx;
+  }
+  .adduserorder{
+   margin-top: 50rpx;
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  }.viewclass{
+    
+    width: 240rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }.textls{
+    display: flex;
+    flex-direction:row;
+    
+  }

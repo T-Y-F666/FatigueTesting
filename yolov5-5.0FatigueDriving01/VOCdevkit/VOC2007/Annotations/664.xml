@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>664.jpg</filename>
+	<path>C:\Users\86137\Desktop\VOCdevkit\VOC2007\JPEGImages\664.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>279</width>
+		<height>372</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>normal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>47</xmin>
+			<ymin>11</ymin>
+			<xmax>222</xmax>
+			<ymax>284</ymax>
+		</bndbox>
+	</object>
+</annotation>

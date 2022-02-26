@@ -1,0 +1,18 @@
+<view class="image-list" wx:if="{{imgList.length > 0}}">
+    <view class="item" wx:for="{{result}}" wx:key="key">
+      <image src="{{item.url}}" bindtap="preview" data-src="{{item.path}}"></image>
+      <view>属性：{{item.att}}</view>
+      <button class="mini-btn" type="primary" size="mini" bindtap='more'>更多</button>
+      <dialog id='dialog' 
+        title='更多' 
+        content='图片属性 {{item.att}} 该属性数量 {{item.num}} 图片尺寸 {{item.size}}' 
+        cancelText='取消' 
+        confirm='确定' 
+        isShown="{{isShown}}"
+        bind:cancelEvent="_cancelEvent" 
+        bind:confirmEvent="_confirmEvent"/>
+    </view>
+  </view>
+
+
+

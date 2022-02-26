@@ -1,0 +1,24 @@
+ <view class="container">
+  <view class="chose-image" bindtap="chooseVideo">
+    <image src="/static/images/icon/uploadvideo.png"></image>
+    <text>+视频</text>
+  </view>
+  <view class="video-list" wx:if="{{videoList.length > 0}}">
+    <view class="item" wx:for="{{videoList}}" wx:key="key">
+      <video src="{{item.path}}" initial-time='0.01'></video>
+      <icon wx:if="{{item.percent==100}}" class="rm" type="clear" color="red" data-index="{{index}}" data-item="{{item}}" bindtap="removevideo"></icon>
+      <progress percent="{{item.percent}}"  wx:if="{{item.error}}" color="#FF0000" />
+      <progress percent="{{item.percent}}" wx:else  />
+    </view>
+  </view>
+</view>
+<view class="publish-btn" wx:if="{{!uploaded}}" bindtap="uploadVideo">
+  上 传
+</view>
+<view class="publish-btn" wx:if="{{uploaded}}" bindtap="distingguish">
+  识 别
+</view>
+
+
+
+

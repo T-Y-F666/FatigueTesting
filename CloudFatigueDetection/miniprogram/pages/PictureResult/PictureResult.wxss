@@ -1,0 +1,4 @@
+.mini-btn {
+    margin-left: 600rpx;
+    border-radius: 98rpx; 
+}

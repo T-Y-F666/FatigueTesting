@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>045.webp</filename>
+	<path>C:\Users\86137\Desktop\VOCdevkit\VOC2007\JPEGImages\045.webp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>415</width>
+		<height>324</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fatigue</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>156</xmin>
+			<ymin>15</ymin>
+			<xmax>355</xmax>
+			<ymax>227</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>060.jpg</filename>
+	<path>C:\Users\86137\Desktop\VOCdevkit\VOC2007\JPEGImages\060.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>454</width>
+		<height>266</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>normal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>3</ymin>
+			<xmax>343</xmax>
+			<ymax>208</ymax>
+		</bndbox>
+	</object>
+</annotation>

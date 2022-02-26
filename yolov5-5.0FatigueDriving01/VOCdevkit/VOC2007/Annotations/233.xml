@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>233.jpg</filename>
+	<path>C:\Users\86137\Desktop\VOCdevkit\VOC2007\JPEGImages\233.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>374</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fatigue</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>7</ymin>
+			<xmax>233</xmax>
+			<ymax>308</ymax>
+		</bndbox>
+	</object>
+</annotation>

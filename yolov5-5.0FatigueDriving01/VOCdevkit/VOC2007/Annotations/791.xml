@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>791.jpg</filename>
+	<path>C:\Users\86137\Desktop\VOCdevkit\VOC2007\JPEGImages\791.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>496</width>
+		<height>280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fatigue</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>311</xmin>
+			<ymin>21</ymin>
+			<xmax>401</xmax>
+			<ymax>135</ymax>
+		</bndbox>
+	</object>
+</annotation>

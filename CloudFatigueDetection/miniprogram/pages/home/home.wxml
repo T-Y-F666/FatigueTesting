@@ -1,0 +1,46 @@
+
+<view class="page-body">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+ <block wx:for="{{imgUrls}}">
+   <swiper-item>
+     <image src="{{item}}"  style="height: 150px; width: 100%;"   class='img' />
+  </swiper-item>
+ </block>
+</swiper>
+  <view class="btn-area" id="buttonContainer">
+  </view>
+</view>
+<view class='adduserorder'>
+ 
+ 
+ <button catchtap="chooseImageTap"  class="circle">
+ <image mode='scaleToFill' src='https://7479-tyf666-3g5e5bl60351a3df-1307943554.tcb.qcloud.la/image/%E5%9B%BE%E7%89%87%E8%AF%86%E5%88%AB.png' plain='true' class='image'></image>
+ </button>
+ 
+ <button type="handleClicks" catchtap="chooseVideoTap" class="circle">
+ <image mode='aspectFill' src='https://7479-tyf666-3g5e5bl60351a3df-1307943554.tcb.qcloud.la/image/%E8%A7%86%E9%A2%91%E8%AF%86%E5%88%AB%20(1).png' plain='true' class='image'></image>
+ </button>
+ 
+ 
+ <button type="handleClicks" catchtap="chooseRealTimeMonitoringTap" class="circle">
+ <image mode='aspectFill' src='https://7479-tyf666-3g5e5bl60351a3df-1307943554.tcb.qcloud.la/image/%E5%AE%9E%E6%97%B6%E7%9B%91%E6%8E%A7.png' plain='true' class='image'></image>
+ </button>
+
+</view>
+ 
+<view class='textls'>
+<view class='viewclass'>
+    <text class='viewview'>图片识别</text>
+</view>
+<view class='viewclass'>
+    <text class='viewview'>视频识别</text>
+</view>
+<view class='viewclass'>
+    <text class='viewview'>实时监控</text>
+</view>
+</view>
+<view class='viewclass'>
+ <button  catchtap="LisGomora" mode="widthFix" class="circle">
+ <!-- <image mode='aspectFill' src='../../images/images/extension/train-extension1.png' plain='true' class='image'></image> -->
+ </button>
+</view>

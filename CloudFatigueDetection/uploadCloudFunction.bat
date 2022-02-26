@@ -1,0 +1,1 @@
+"D:\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-8gg5m3b955bdc7a0 --n quickstartFunctions --r --project "D:\WeChatProjects\CloudFatigueDetection" --report_first && "D:\微信web开发者工具\cli.bat" cloud functions deploy --e tyf666-3g5e5bl60351a3df --n quickstartFunctions --r --project "D:\WeChatProjects\CloudFatigueDetection" --report

@@ -1,0 +1,21 @@
+/* pages/product/product.wxss */
+.container{
+    width: 100%;
+    height: 150rpx;
+    font-weight: bold;
+}
+.content{
+    width: 450rpx;
+    height:150rpx ;
+    padding-left: 20%;
+    font-weight: lighter;
+}
+.each_container{
+    width: 100%;
+}
+/*分割线样式*/
+.divLine{
+    background: #E0E3DA;
+    width: 100%;
+    height: 5rpx;
+   }

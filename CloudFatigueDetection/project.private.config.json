@@ -1,0 +1,164 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "id": -1,
+                    "name": "db guide",
+                    "pathName": "pages/databaseGuide/databaseGuide",
+                    "query": ""
+                },
+                {
+                    "name": "pages/getOpenId/index",
+                    "pathName": "pages/getOpenId/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/deployService/index",
+                    "pathName": "pages/deployService/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/selectRecord/index",
+                    "pathName": "pages/selectRecord/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/sumRecordResult/index",
+                    "pathName": "pages/sumRecordResult/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/updateRecord/index",
+                    "pathName": "pages/updateRecord/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/updateRecordResult/index",
+                    "pathName": "pages/updateRecordResult/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/updateRecordSuccess/index",
+                    "pathName": "pages/updateRecordSuccess/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/home/home",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/home/home",
+                    "query": "pages/home/home",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/login/login",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/publish/publish",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/mine/mine",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/product/product",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/test01/test01",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/pie/pie",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/test/test01",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/test02/test02",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/userlogin/userlogin",
+                    "query": "",
+                    "scene": null,
+                    "launchMode": "default"
+                }
+            ]
+        }
+    }
+}

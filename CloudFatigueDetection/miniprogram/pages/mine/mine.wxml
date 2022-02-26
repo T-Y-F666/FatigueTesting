@@ -1,0 +1,66 @@
+<view class="container">
+  <view class="top-view">
+    <view class="user">
+      <view class="row">
+        
+        <image class="avatar" wx:if="{{userInfo}}" src="{{userInfo.avatarUrl}}"></image>
+        <view class="name" wx:if="{{userInfo}}">
+          <view bindtap="logout">{{userInfo.nickName}}</view>
+        </view>
+        <view class="name" wx:else>
+          <navigator wx:if="{{!(app.globalData.loginid)}}" url="/pages/login/login">登录</navigator>
+          <navigator wx:if="{{(app.globalData.loginid)}}">您已经登录</navigator>
+          |
+          <navigator url="/pages/resigter/resigter">注册</navigator>
+        </view>
+
+      </view>
+      <button class="site" bindtap="his">查看个人历史</button>
+    </view>
+
+    
+  </view>
+  <view class="middle-view">
+    <view class="item">
+      <image src="../image/支付.png"></image>
+      <text bindtap="pay">支付</text>
+    </view>
+    <view class="item">
+      <image src="../image/待支付.png"></image>
+      <text bindtap="tobepaid">待支付</text>
+    </view>
+  </view>
+  
+
+  <view class="middle-view">
+    
+  </view>
+  <view class="function-view">
+    <view class="row">
+      <view class="left">已用空间(B) </view>
+      <view class="right">
+        <view>{{usedspace}}</view>
+        <image class="go-icon" src='https://7479-tyf666-3g5e5bl60351a3df-1307943554.tcb.qcloud.la/image/%E5%B7%B2%E7%94%A8%E7%A9%BA%E9%97%B4.png'></image>
+      </view>
+    </view>
+    <view class="row">
+      <view class="left">剩余空间(B)</view>
+      <view class="right">
+        <view>{{Remainingspace}}</view>
+        <image class="go-icon" src='https://7479-tyf666-3g5e5bl60351a3df-1307943554.tcb.qcloud.la/image/%E5%89%A9%E4%BD%99%E7%A9%BA%E9%97%B4.png'></image>
+      </view>
+    </view>
+    <view class="row">
+      <view class="left">账号状态 </view>
+      <view class="right">
+        <text>个人信息已绑定</text>
+       </view>
+    </view>
+  </view>
+  <view class="contact-view">
+    <button open-type="contact">
+    </button>
+    <button bindtap="onClickCall">
+    </button>
+  </view>
+</view>

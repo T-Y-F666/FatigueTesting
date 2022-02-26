@@ -1,0 +1,26 @@
+<!--pages/product/product.wxml-->
+<!-- <text>pages/product/product.wxml</text> -->
+<view class="container">
+    <view class="each_container">实时上传
+        <view class="content">修改将无法获取历史记录</view>
+        <view class="divLine"></view>
+    </view>
+    <view class="each_container">版本
+        <view class="content">Version0.0.1</view>
+        <view class="divLine"></view>
+    </view>
+    <view class="each_container">作者
+        <view class="content">TYF</view>
+        <view class="divLine"></view>
+    </view>
+    <view class="each_container">单位
+        <view class="content">河南工业大学</view>
+        <view class="divLine"></view>
+    </view>
+    <view class="each_container">隐私
+        <view class="content">该产品数据不涉及个人隐私检测，仅用于科学研究</view>
+        <view class="divLine"></view>
+    </view>
+</view>
+
+

@@ -1,0 +1,6 @@
+<camera
+  class="camera"
+  frame-size="large"
+></camera>
+<button class='record' bindtap='record'>拍摄</button>
+
